@@ -1,0 +1,258 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.nav-bar h3 {
+    padding-left: 30px;
+}
+.search-icon i {
+    color: white;
+    width: 50px;
+    padding-right: 50px;
+}
+.nav-bar nav strong {
+    padding-right: 40px;
+    cursor: pointer;
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 200px 20px 150px;
+    height: 380px;
+}
+.slider img {
+    /* flex-basis: 50%; */
+    width: 500px;
+    /* padding-right: 50px; */
+}
+.header {
+    padding-left: 50px;
+}
+.header h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.header h1 span {
+    color: tomato;
+}
+.header p {
+    font-weight: 200;
+}
+.read {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 200px 20px 150px;
+}
+.read-link {
+    display: flex;
+    flex-direction: row;
+}
+.read a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+.read a hr {
+    width: 100px;
+    color: black;
+}
+.arrows i {
+    padding-right: 25px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 200px 20px 150px;
+}
+.about-text {
+    text-align: center;
+}
+.about-text p {
+    font-weight: 100;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.about-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+}
+.services-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 200px 20px 150px;
+}
+.services-text {
+    text-align: center;
+
+}
+.services-images p {
+    font-size: 14px;
+}
+.services-images h3 {
+    margin-top: 0;
+}
+.services-images img {
+    height: 200px;
+}
+.services-images a {
+    text-decoration: none;
+    color: tomato;
+}
+.img-1{
+    flex-basis: 25%;
+}
+.img-2 {
+    flex-basis: 25%;
+}
+.img-3 {
+    flex-basis: 25%;
+}
+.img-4 {
+    flex-basis: 25%;
+}
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.booking input {
+    height: 50px;
+    width: 500px;
+    margin-bottom: 25px;
+    background-color: #F2F2F2;
+    border: none;
+    padding-left: 20px;
+}
+.booking button {
+    height: 50px;
+    width: 120px;
+    background-color: tomato;
+    border: none;
+    color: white;
+}
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.lorem {
+    width: 500px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+.lorem p {
+    font-size: 14px;
+}
+.owner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+.owner img {
+    width: 75px;
+    height: 75px;
+    /* border: 1px solid ; */
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.owner h6 {
+    color: tomato;
+}
+.name {
+    justify-content: center;
+}
+.name h5 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.name h6 {
+    margin: 0;
+}
+.footer {
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 40px 200px 20px 150px;
+}
+.footer h2 {
+    text-transform: uppercase;
+}
+.houstenn {
+    flex-basis: 25%;
+}
+.houstenn hr {
+    width: 200px;
+    /* align-self: left; */
+    margin-left: 0;
+}
+.navigation {
+    flex-basis: 25%;
+    /* text-align: left;
+    align-items: left; */
+}
+.navigation h2 {
+    text-transform: capitalize;
+}
+.navigation ul {
+    padding-left: 15px;
+}
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+.contact {
+    flex-basis: 25%;
+    text-align: left;
+}
+.contact h6 {
+    font-size: 16px;
+    padding: 0;
+    margin: 10px;
+}
+.ad h6 {
+    text-align: left;
+    margin-left: 0;
+    color: black;
+}
+.call h6 {
+    margin-left: 0;
+    color: black;
+}
+.discover {
+    flex-basis: 25%;
+}
+.discover li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+.discover i {
+    margin-right: 8px;
+}
+footer {
+    text-align: center;
+}
